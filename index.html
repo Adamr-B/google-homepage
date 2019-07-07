@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <head>
-    <link href="styles/styles.css" type="text/css" rel="stylesheet">   
+    <title>Google</title>
+    <link href="styles/styles.css" type="text/css" rel="stylesheet">
 </head>
-<header>
-    <div class="nav-bar">
-        <h1>About</h1>
-        <h1>Store</h1>
-        <h1>GMail</h1>
-        <h1>Images</h1>
-    </div>
-
-</header>
-
-
 <body>
     <div>
-        <img src="/Users/adambright/the_odin_project/google-homepage/images/Google-logo.png" alt="Google Logo"/>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+        </ul>
+        <ul id="rhs-menu">
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Image</a></li>
+            <li id="app-image"><img id="app-draw" src="images/Apps button.svg"</li>
+            <li id="sign-in">Sign Up</li>
+        </ul>
     </div>
+    <body>
+        <div class="bottom-nav-bar">
+            <p>United Kingdom</p>
+            <ul>
+                <li><a class="bottom" href="#">Advertising</a></li>
+                <li><a class="bottom" href="#">Business</a></li>
+                <li><a class="bottom" href="#">How Search Works</a></li>
+            </ul>
+            <ul id="bottom-rhs-menu">
+                <li><a class="bottom" href="#">Privacy</a></li>
+                <li><a class="bottom" href="#">Terms</a></li>
+                <li><a class="bottom" href="#">Settings</a></li>
+            </ul>
+        </div>
     <div>
+        <img id="google-logo" src="images/Google-logo.png" alt="Google Logo">
         <form action="#" method="POST">
-            <input type="text" name="search-term">
+            <input type="text" name="Search"><br>
+        <div id="button-center">
+            <button type="button">Google Search</button>
+            <button type="button">I'm Feeling Lucky</button>
+        </div>
         </form>
     </div>
-    <div>
-        <button type="button">Google Search</button>
-        <button type="button">I'm Feeling Lucky</button>
-    </div>
-</body>
-<footer>
-    <div>
-        <h1>Advertise</h1>
-        <h1>Business</h1>
-        <h1>How Search Works</h1>
-        <h1>Privacy</h1>
-        <h1>Terms</h1>
-        <h1>Settings</h1>
-    </div>
-</footer>

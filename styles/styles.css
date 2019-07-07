@@ -1,0 +1,103 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13px;
+   color: black;
+}
+ul {
+   list-style: none;
+   display:inline-block;
+   padding: 0;
+}
+li {
+   display: inline-block;
+   padding: 20px 0 0 20px;
+}
+a {
+   text-decoration: none;
+   color: black;
+}
+.bottom {
+   text-decoration: none;
+   color: #6f6f6f;
+}
+a:hover {
+   text-decoration: underline;
+}
+#rhs-menu {
+   float: right;
+   padding: 0 15px 0 0;
+}
+#app-image { 
+   padding: 0px 15px 0 15px;
+}
+#app-draw{
+   width: 15px;
+}
+#sign-in{
+   color: white;
+   background-color:#4683ec;
+   padding: 5px 10px;
+   border-radius: 5px;
+}
+.bottom-nav-bar {
+   position: fixed;
+   bottom: 0;
+   width:100%;
+   background-color: #f2f2f2;
+   border-top: 1px solid #e4e4e4;
+   color:#6f6f6f;
+}
+#bottom-rhs-menu {
+   float: right;
+   padding: 0 15px 10px 0;
+   color: #6f6f6f;
+}
+p {
+   padding: 15px 0 10px 20px;
+   font-size: 16px;
+   border-bottom: 1px solid #e4e4e4;
+   color: #6f6f6f;
+}
+#google-logo {
+   position: absolute;
+   top: 27%;
+   left: 40.5%;
+   padding: 0;
+   margin: 0;
+   width: 272px;
+   height: 92px;
+}
+form {
+   position: absolute;
+   top: 40%;
+   left: 33%;
+}
+input[type=text] {
+   border-radius: 20px;
+   border: 1px solid #e0e2e6;
+   width: 500px;
+   height: 40px;
+   outline: none;
+}
+button {
+   font-size: 14px;
+   color: #5F6368;
+   background-color: #f3f3f3;
+   padding: 10px 10px;
+   margin: 10px 5px;
+   border-radius: 5px;
+   border: 1px solid #f2f2f2;
+   outline: none;
+}
+button:hover {
+   border: 1px solid #c6c6c6;
+   color: black;
+}
+#button-center {
+   position: absolute;
+   left: 21%;
+}
